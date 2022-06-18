@@ -18,13 +18,13 @@ const Nava = ({children}) => {
             <Nav.Link ></Nav.Link>
               <Nav className="me-auto mx-auto d-flex  ">
                 <div>
-                    <Nav.Link><h3 class=" text-center text-light">Powered by </h3></Nav.Link>
+                    <Nav.Link><h3 className=" text-center text-light">Powered by </h3></Nav.Link>
                     <Nav.Link>
                         <div className='d-flex justify-content-center'>
                         <Image  src='/assets/logo2.png'  width={150} height={80} layout='intrinsic'/>
                         </div>
                     </Nav.Link>
-                    <Nav.Link><h3 class="text-center text-light">©Copyright-2022 Blade Link Argentina. All Rights Reserved. </h3></Nav.Link>
+                    <Nav.Link><h3 className="text-center text-light">©Copyright-2022 Blade Link Argentina. All Rights Reserved. </h3></Nav.Link>
                 </div>
               </Nav>
               <Nav>
